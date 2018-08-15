@@ -1,1 +1,1 @@
-.dejade{color:green}
+:root{--dejade:lime}.bg-dejade{background-color:lime;background-color:var(--dejade)}.text-dejade{color:lime;color:var(--dejade)}

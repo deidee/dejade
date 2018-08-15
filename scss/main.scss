@@ -1,4 +1,16 @@
 
-.dejade {
-  color: green;
+$green: lime;
+
+:root {
+  --dejade: $green;
+}
+
+.bg-dejade {
+  background-color: $green;
+  background-color: var(--dejade);
+}
+
+.text-dejade {
+  color: $green;
+  color: var(--dejade);
 }
