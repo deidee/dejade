@@ -30,8 +30,9 @@
         var width = window.innerWidth;
         var height = window.innerHeight;
 
-        var b = Math.round(255 * cursorX / width);
-        var rgb = 'rgb(0, 255, ' + b + ')';
+        var r = Math.round(127 * cursorY / height);
+        var b = Math.round(191 * cursorX / width);
+        var rgb = 'rgb(' + r + ', 255, ' + b + ')';
 
         html.style.setProperty("--dejade", rgb);
     }
