@@ -2,7 +2,18 @@
 <html dir="ltr" lang="nl">
 <head>
     <title>Demo</title>
+    <link rel="stylesheet" href="https://default.style/">
     <link rel="stylesheet" href="../css/dejade.min.css">
+    <style>
+        .text-dejade {
+            text-shadow: 0 1px 0 rgba(0, 0, 0, .125);
+        }
+
+        .bg-dejade {
+            color: #fff;
+            text-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+        }
+    </style>
 </head>
 <body id="top">
 <p class="text-dejade">Deze tekst zou groen moeten zijn.</p>
@@ -31,8 +42,9 @@
         var height = window.innerHeight;
 
         var r = Math.round(127 * cursorY / height);
+        var g = Math.round(((cursorY / height) + (cursorX / width)) / 2 * 128 + 127);
         var b = Math.round(191 * cursorX / width);
-        var rgb = 'rgb(' + r + ', 255, ' + b + ')';
+        var rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
 
         html.style.setProperty("--dejade", rgb);
     }

@@ -11,7 +11,9 @@
     "url": "git+https://github.com/deidee/dejade.git"
   },
   "keywords": [
-    "css"
+    "css",
+    "scss",
+    "js"
   ],
   "author": "ACJ",
   "license": "UNLICENSED",
