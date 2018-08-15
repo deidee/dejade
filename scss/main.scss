@@ -1,16 +1,20 @@
 
-$green: lime;
+$r: random(127);
+$g: 127 + random(128);
+$b: random(191);
+
+$dejade: rgb($g, $g, $b);
 
 :root {
-  --dejade: $green;
+  --dejade: #{$dejade};
 }
 
 .bg-dejade {
-  background-color: $green;
+  background-color: $dejade;
   background-color: var(--dejade);
 }
 
 .text-dejade {
-  color: $green;
+  color: $dejade;
   color: var(--dejade);
 }
