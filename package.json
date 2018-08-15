@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/deidee/dejade/issues"
   },
-  "homepage": "https://github.com/deidee/dejade#readme"
+  "homepage": "https://github.com/deidee/dejade#readme",
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
 }
