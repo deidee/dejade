@@ -1,1 +1,1 @@
-:root{--dejade:#d0d049}.bg-dejade{background-color:#d0d049;background-color:var(--dejade)}.text-dejade{color:#d0d049;color:var(--dejade)}
+:root{--dejade:#d9d9a9}.bg-dejade{background-color:#d9d9a9;background-color:var(--dejade)}.border-dejade{border-color:#d9d9a9;border-color:var(--dejade);border-style:solid;border-width:.0625rem}.text-dejade{color:#d9d9a9;color:var(--dejade)}
