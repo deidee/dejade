@@ -2,13 +2,22 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         sass: {
+            src: {
+                options: {
+                    sourcemap: 'auto',
+                    style: 'expanded'
+                },
+                files: {
+                    'css/dejade.css': 'scss/dejade.scss'
+                }
+            },
             dist: {
                 options: {
                     sourcemap: 'none',
                     style: 'compressed'
                 },
                 files: {
-                    'css/dejade.min.css': 'scss/main.scss'
+                    'css/dejade.min.css': 'scss/dejade.scss'
                 }
             }
         },
