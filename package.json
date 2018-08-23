@@ -1,5 +1,5 @@
 {
-  "name": "dejade",
+  "name": "@deidee/dejade",
   "version": "1.0.0",
   "description": "De kleur van deidee.",
   "main": "index.js",
@@ -17,7 +17,6 @@
   ],
   "author": "ACJ",
   "license": "UNLICENSED",
-  "private": true,
   "bugs": {
     "url": "https://github.com/deidee/dejade/issues"
   },
