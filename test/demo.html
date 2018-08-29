@@ -27,7 +27,11 @@
     "use strict";
 
     let html = document.getElementsByTagName('html')[0];
-    html.style.setProperty("--dejade", "green");
+    let r = Math.round(127 * Math.random());
+    let g = Math.round(Math.random() * 128 + 127);
+    let b = Math.round(191 * Math.random());
+    let rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
+    html.style.setProperty("--dejade", rgb);
 
     document.addEventListener("DOMContentLoaded", function(e) {
         let width = window.innerWidth;
