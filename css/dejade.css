@@ -1,21 +1,21 @@
 :root {
-  --dejade: #f1f148;
+  --dejade: #0ac53a;
 }
 
 .bg-dejade {
-  background-color: #f1f148;
+  background-color: #0ac53a;
   background-color: var(--dejade);
 }
 
 .border-dejade {
-  border-color: #f1f148;
+  border-color: #0ac53a;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem;
 }
 
 .text-dejade {
-  color: #f1f148;
+  color: #0ac53a;
   color: var(--dejade);
 }
 
