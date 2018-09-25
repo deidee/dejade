@@ -1,4 +1,4 @@
-# deJade
+# ![dejade](https://deidee.com/logo.png?str=dejade)
 
 DeJade is de primaire kleur van de identiteit/huisstijl van [deIdee](https://deidee.nl/). Normaliter wordt de kleur van een merk beschreven als één exacte kleurcode; mogelijk per kleurmodel (zoals RGB, CMYK, RAL en Pantone). DeJade daarentegen beschrijft een bandbreedte waarop verschillende functies kunnen worden losgelaten. Zo kan de muispositie op een beeldscherm of pseudowillekeur bepalen welke kleur deJade precies vertegenwoordigt.
 
