@@ -3,8 +3,13 @@
 <head>
     <title>Demo</title>
     <link rel="stylesheet" href="https://default.style/">
+    <link rel="stylesheet" href="https://grid.sexy/css/grid.min.css">
     <link rel="stylesheet" href="../css/dejade.min.css">
     <style>
+        .block {
+            padding: 12px;
+        }
+
         .text-dejade {
             text-shadow: 0 1px 0 rgba(0, 0, 0, .125);
         }
@@ -16,12 +21,33 @@
     </style>
 </head>
 <body id="top">
-<p class="text-dejade">Deze tekst zou groen moeten zijn.</p>
-<div class="bg-dejade">
-    <p>Deze achtergrond zou groen moeten zijn.</p>
-</div>
-<div class="border-dejade">
-    <p>Dit vlak zou een groene rand moeten hebben.</p>
+<div class="container">
+    <div class="row">
+        <section class="col">
+            <h2>Statisch</h2>
+            <div class="block text-dejade">
+                <p>Deze tekst zou groen moeten zijn.</p>
+            </div>
+            <div class="block bg-dejade">
+                <p>Deze achtergrond zou groen moeten zijn.</p>
+            </div>
+            <div class="block border-dejade">
+                <p>Dit vlak zou een groene rand moeten hebben.</p>
+            </div>
+        </section>
+        <section class="col">
+            <h2>Muisinteractie</h2>
+            <div class="block text-dejade ia-demuis">
+                <p>Deze tekst zou groen moeten zijn.</p>
+            </div>
+            <div class="block bg-dejade ia-demuis">
+                <p>Deze achtergrond zou groen moeten zijn.</p>
+            </div>
+            <div class="block border-dejade ia-demuis">
+                <p>Dit vlak zou een groene rand moeten hebben.</p>
+            </div>
+        </section>
+    </div>
 </div>
 <script>
     "use strict";
@@ -32,6 +58,7 @@
     let b = Math.round(191 * Math.random());
     let rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
     html.style.setProperty("--dejade", rgb);
+    html.style.setProperty("--dejade-demuis", rgb);
 
     document.addEventListener("DOMContentLoaded", function(e) {
         let width = window.innerWidth;
@@ -43,7 +70,7 @@
             let b = Math.round(191 * e.clientX / width);
             let rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
 
-            html.style.setProperty("--dejade", rgb);
+            html.style.setProperty("--dejade-demuis", rgb);
         };
     });
 

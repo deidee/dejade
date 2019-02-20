@@ -1,22 +1,32 @@
 :root {
-  --dejade: #0ac53a;
+  --dejade: #11cb70;
+  --dejade-demuis: #11cb70;
 }
 
 .bg-dejade {
-  background-color: #0ac53a;
+  background-color: #11cb70;
   background-color: var(--dejade);
+}
+.bg-dejade.ia-demuis {
+  background-color: var(--dejade-demuis);
 }
 
 .border-dejade {
-  border-color: #0ac53a;
+  border-color: #11cb70;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem;
 }
+.border-dejade.ia-demuis {
+  border-color: var(--dejade-demuis);
+}
 
 .text-dejade {
-  color: #0ac53a;
+  color: #11cb70;
   color: var(--dejade);
+}
+.text-dejade.ia-demuis {
+  color: var(--dejade-demuis);
 }
 
 /*# sourceMappingURL=dejade.css.map */
