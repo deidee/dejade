@@ -22,3 +22,9 @@ De originele regel (_Python_)code, circa 2006:
 
 De implementatie van _deJade_ in de identiteit van _deIdee_ gaat via _greenius_ — een algoritme dat ervoor zorgt dat er onder specifieke condities specifieke uitzonderingen worden gemaakt op de kleur.
 Zo is gedurende de borstkankermaand oktober bijvoorbeeld altijd één van de blokjes van het logo roze in plaats van groen.
+
+## Publiceren
+
+    npm publish --access public
+    
+ 
