@@ -35,6 +35,18 @@
             </div>
         </section>
         <section class="col">
+            <h2>Pseudowillekeur</h2>
+            <div class="block text-dejade ia-derand">
+                <p>Deze tekst zou groen moeten zijn.</p>
+            </div>
+            <div class="block bg-dejade ia-derand">
+                <p>Deze achtergrond zou groen moeten zijn.</p>
+            </div>
+            <div class="block border-dejade ia-derand">
+                <p>Dit vlak zou een groene rand moeten hebben.</p>
+            </div>
+        </section>
+        <section class="col">
             <h2>Muisinteractie</h2>
             <div class="block text-dejade ia-demuis">
                 <p>Deze tekst zou groen moeten zijn.</p>
@@ -63,16 +75,15 @@
 <script>
     "use strict";
 
-    let html = document.getElementsByTagName('html')[0];
-    let r = Math.round(127 * Math.random());
-    let g = Math.round(Math.random() * 128 + 127);
-    let b = Math.round(191 * Math.random());
-    let rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
-    html.style.setProperty("--dejade", rgb);
-    html.style.setProperty("--dejade-demuis", rgb);
-    html.style.setProperty("--dejade-detijd", rgb);
-
     document.addEventListener("DOMContentLoaded", function(e) {
+
+        let html = document.getElementsByTagName('html')[0];
+        let r = Math.round(127 * Math.random());
+        let g = Math.round(Math.random() * 128 + 127);
+        let b = Math.round(191 * Math.random());
+        let rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
+        html.style.setProperty("--dejade-derand", rgb);
+
         let width = window.innerWidth;
         let height = window.innerHeight;
 

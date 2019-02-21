@@ -8,6 +8,7 @@ $dejade: rgb($r, $g, $b);
 :root {
   --dejade: #{$dejade};
   --dejade-demuis: #{$dejade};
+  --dejade-derand: #{$dejade};
   --dejade-detijd: #{$dejade};
 }
 
@@ -17,6 +18,10 @@ $dejade: rgb($r, $g, $b);
 
   &.ia-demuis {
     background-color: var(--dejade-demuis);
+  }
+
+  &.ia-derand {
+    background-color: var(--dejade-derand);
   }
 
   &.ia-detijd {
@@ -34,6 +39,10 @@ $dejade: rgb($r, $g, $b);
     border-color: var(--dejade-demuis);
   }
 
+  &.ia-derand {
+    border-color: var(--dejade-derand);
+  }
+
   &.ia-detijd {
     border-color: var(--dejade-detijd);
   }
@@ -45,6 +54,10 @@ $dejade: rgb($r, $g, $b);
 
   &.ia-demuis {
     color: var(--dejade-demuis);
+  }
+
+  &.ia-derand {
+    color: var(--dejade-derand);
   }
 
   &.ia-detijd {

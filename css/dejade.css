@@ -1,22 +1,26 @@
 :root {
-  --dejade: #239890;
-  --dejade-demuis: #239890;
-  --dejade-detijd: #239890;
+  --dejade: #04bf64;
+  --dejade-demuis: #04bf64;
+  --dejade-derand: #04bf64;
+  --dejade-detijd: #04bf64;
 }
 
 .bg-dejade {
-  background-color: #239890;
+  background-color: #04bf64;
   background-color: var(--dejade);
 }
 .bg-dejade.ia-demuis {
   background-color: var(--dejade-demuis);
+}
+.bg-dejade.ia-derand {
+  background-color: var(--dejade-derand);
 }
 .bg-dejade.ia-detijd {
   background-color: var(--dejade-detijd);
 }
 
 .border-dejade {
-  border-color: #239890;
+  border-color: #04bf64;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem;
@@ -24,16 +28,22 @@
 .border-dejade.ia-demuis {
   border-color: var(--dejade-demuis);
 }
+.border-dejade.ia-derand {
+  border-color: var(--dejade-derand);
+}
 .border-dejade.ia-detijd {
   border-color: var(--dejade-detijd);
 }
 
 .text-dejade {
-  color: #239890;
+  color: #04bf64;
   color: var(--dejade);
 }
 .text-dejade.ia-demuis {
   color: var(--dejade-demuis);
+}
+.text-dejade.ia-derand {
+  color: var(--dejade-derand);
 }
 .text-dejade.ia-detijd {
   color: var(--dejade-detijd);
