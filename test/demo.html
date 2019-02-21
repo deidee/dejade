@@ -2,7 +2,6 @@
 <html dir="ltr" lang="nl">
 <head>
     <title>Demo</title>
-    <link rel="stylesheet" href="https://default.style/">
     <link rel="stylesheet" href="https://grid.sexy/css/grid.min.css">
     <link rel="stylesheet" href="../css/dejade.min.css">
     <style>
@@ -47,6 +46,18 @@
                 <p>Dit vlak zou een groene rand moeten hebben.</p>
             </div>
         </section>
+        <section class="col">
+            <h2>Tijdsafhankelijk</h2>
+            <div class="block text-dejade ia-detijd">
+                <p>Deze tekst zou groen moeten zijn.</p>
+            </div>
+            <div class="block bg-dejade ia-detijd">
+                <p>Deze achtergrond zou groen moeten zijn.</p>
+            </div>
+            <div class="block border-dejade ia-detijd">
+                <p>Dit vlak zou een groene rand moeten hebben.</p>
+            </div>
+        </section>
     </div>
 </div>
 <script>
@@ -59,6 +70,7 @@
     let rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
     html.style.setProperty("--dejade", rgb);
     html.style.setProperty("--dejade-demuis", rgb);
+    html.style.setProperty("--dejade-detijd", rgb);
 
     document.addEventListener("DOMContentLoaded", function(e) {
         let width = window.innerWidth;
@@ -72,6 +84,18 @@
 
             html.style.setProperty("--dejade-demuis", rgb);
         };
+
+        var t = setInterval(deTijd, 1000);
+
+        function deTijd() {
+            let d = new Date();
+            let r = Math.round(127 / 24 * d.getHours());
+            let g = Math.round(127 / 60 * d.getMinutes() + 127);
+            let b = Math.round(191 / 60 * d.getSeconds());
+            let rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
+
+            html.style.setProperty("--dejade-detijd", rgb);
+        }
     });
 
 </script>

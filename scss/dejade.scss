@@ -8,6 +8,7 @@ $dejade: rgb($r, $g, $b);
 :root {
   --dejade: #{$dejade};
   --dejade-demuis: #{$dejade};
+  --dejade-detijd: #{$dejade};
 }
 
 .bg-dejade {
@@ -16,6 +17,10 @@ $dejade: rgb($r, $g, $b);
 
   &.ia-demuis {
     background-color: var(--dejade-demuis);
+  }
+
+  &.ia-detijd {
+    background-color: var(--dejade-detijd);
   }
 }
 
@@ -28,6 +33,10 @@ $dejade: rgb($r, $g, $b);
   &.ia-demuis {
     border-color: var(--dejade-demuis);
   }
+
+  &.ia-detijd {
+    border-color: var(--dejade-detijd);
+  }
 }
 
 .text-dejade {
@@ -36,5 +45,9 @@ $dejade: rgb($r, $g, $b);
 
   &.ia-demuis {
     color: var(--dejade-demuis);
+  }
+
+  &.ia-detijd {
+    color: var(--dejade-detijd);
   }
 }
