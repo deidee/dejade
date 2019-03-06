@@ -12,11 +12,11 @@ Tot slot kan de kleur worden beïnvloed — uiteraard bínnen de gestelde bandbr
 
 De originele regel (_Python_)code, circa 2006:
 
-`fill(random(0, .5), random(.5, 1), random(0, .75), .5)`
+    fill(random(0, .5), random(.5, 1), random(0, .75), .5)
 
 ## Installatie
 
-`npm install @deidee/dejade`
+    npm i @deidee/dejade
 
 ## Uitbreidingen
 
