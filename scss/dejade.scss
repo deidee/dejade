@@ -48,6 +48,23 @@ $dejade: rgb($r, $g, $b);
   }
 }
 
+.fill-dejade {
+  fill: $dejade;
+  fill: var(--dejade);
+
+  &.ia-demuis {
+    fill: var(--dejade-demuis);
+  }
+
+  &.ia-derand {
+    fill: var(--dejade-derand);
+  }
+
+  &.ia-detijd {
+    fill: var(--dejade-detijd);
+  }
+}
+
 .text-dejade {
   color: $dejade;
   color: var(--dejade);
