@@ -1,7 +1,7 @@
 {
   "name": "@deidee/dejade",
-  "version": "1.0.6",
-  "description": "De kleur van deidee.",
+  "version": "1.0.7",
+  "description": "De huisstijlkleur van deidee.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,8 +13,10 @@
   "keywords": [
     "color",
     "css",
+    "sass",
     "scss",
-    "js"
+    "js",
+    "gulp"
   ],
   "author": "ACJ",
   "license": "UNLICENSED",
@@ -23,8 +25,9 @@
   },
   "homepage": "https://github.com/deidee/dejade#readme",
   "dependencies": {
-    "grunt": "^1.0.3",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.1.0"
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
   }
 }
