@@ -26,5 +26,5 @@ Zo is gedurende de borstkankermaand oktober bijvoorbeeld altijd één van de blo
 ## Publiceren
 
     npm publish --access public
-    
+
  
