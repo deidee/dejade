@@ -1,4 +1,4 @@
-# ![dejade](https://deidee.com/logo.png?str=dejade)
+# ![deJade](https://deidee.com/logo.png?str=deJade)
 
 Groen is de primaire kleur van de identiteit van [deIdee](https://deidee.nl/).
 In tegenstelling tot wat gebruikelijk is bij een huisstijl wordt deze kleur echter niet gedefinieerd door een specifieke kleurcode, maar door een (vrij ruime) bandbreedte.
@@ -12,11 +12,15 @@ Tot slot kan de kleur worden beïnvloed — uiteraard bínnen de gestelde bandbr
 
 De originele regel (_Python_)code, circa 2006:
 
-    fill(random(0, .5), random(.5, 1), random(0, .75), .5)
+```Python
+fill(random(0, .5), random(.5, 1), random(0, .75), .5)
+```
 
 ## Installatie
 
-    npm i @deidee/dejade
+```Shell
+npm i @deidee/dejade
+```
 
 ## Uitbreidingen
 
@@ -25,6 +29,6 @@ Zo is gedurende de borstkankermaand oktober bijvoorbeeld altijd één van de blo
 
 ## Publiceren
 
-    npm publish --access public
-
- 
+```Shell
+npm publish --access public
+```
