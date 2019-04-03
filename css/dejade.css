@@ -1,13 +1,13 @@
 :root {
-  --dejade: #77a138;
-  --dejade-deklik: #77a138;
-  --dejade-demuis: #77a138;
-  --dejade-derand: #77a138;
-  --dejade-detijd: #77a138;
+  --dejade: #4ac899;
+  --dejade-deklik: #4ac899;
+  --dejade-demuis: #4ac899;
+  --dejade-derand: #4ac899;
+  --dejade-detijd: #4ac899;
 }
 
 .bg-dejade {
-  background-color: #77a138;
+  background-color: #4ac899;
   background-color: var(--dejade);
 }
 
@@ -28,10 +28,8 @@
 }
 
 .border-dejade {
-  border-color: #77a138;
+  border-color: #4ac899;
   border-color: var(--dejade);
-  border-style: solid;
-  border-width: .0625rem;
 }
 
 .border-dejade.ia-deklik {
@@ -51,7 +49,7 @@
 }
 
 .fill-dejade {
-  fill: #77a138;
+  fill: #4ac899;
   fill: var(--dejade);
 }
 
@@ -72,7 +70,7 @@
 }
 
 .text-dejade {
-  color: #77a138;
+  color: #4ac899;
   color: var(--dejade);
 }
 
@@ -90,4 +88,9 @@
 
 .text-dejade.ia-detijd {
   color: var(--dejade-detijd);
+}
+
+.border-dejade {
+  border-style: solid;
+  border-width: .0625rem;
 }

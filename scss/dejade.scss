@@ -1,100 +1,45 @@
 
+// TODO: Consider switching from interaction to data attributes for interaction.
+// .ia-deklik would become [data-deklik], for example.
+
 $r: random(127);
 $g: 127 + random(128);
 $b: random(191);
 
 $dejade: rgb($r, $g, $b);
 
+$types: (
+        bg: 'background-color',
+        border: 'border-color',
+        fill: 'fill',
+        text: 'color'
+);
+
+$interactions: ('deklik', 'demuis', 'derand', 'detijd');
+
 :root {
   --dejade: #{$dejade};
-  --dejade-deklik: #{$dejade};
-  --dejade-demuis: #{$dejade};
-  --dejade-derand: #{$dejade};
-  --dejade-detijd: #{$dejade};
+
+  @each $interaction in $interactions {
+    --dejade-#{$interaction}: #{$dejade};
+  }
 }
 
-.bg-dejade {
-  background-color: $dejade;
-  background-color: var(--dejade);
+@each $type in map_keys($types) {
+  .#{$type}-dejade {
+    $rule: map_get($types, $type);
+    #{$rule}: #{$dejade};
+    #{$rule}: var(--dejade);
 
-  &.ia-deklik {
-    background-color: var(--dejade-deklik);
-  }
-
-  &.ia-demuis {
-    background-color: var(--dejade-demuis);
-  }
-
-  &.ia-derand {
-    background-color: var(--dejade-derand);
-  }
-
-  &.ia-detijd {
-    background-color: var(--dejade-detijd);
+    @each $interaction in $interactions {
+      &.ia-#{$interaction} {
+        #{$rule}: var(--dejade-#{$interaction});
+      }
+    }
   }
 }
 
 .border-dejade {
-  border-color: $dejade;
-  border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem;
-
-  &.ia-deklik {
-    border-color: var(--dejade-deklik);
-  }
-
-  &.ia-demuis {
-    border-color: var(--dejade-demuis);
-  }
-
-  &.ia-derand {
-    border-color: var(--dejade-derand);
-  }
-
-  &.ia-detijd {
-    border-color: var(--dejade-detijd);
-  }
-}
-
-.fill-dejade {
-  fill: $dejade;
-  fill: var(--dejade);
-
-  &.ia-deklik {
-    fill: var(--dejade-deklik);
-  }
-
-  &.ia-demuis {
-    fill: var(--dejade-demuis);
-  }
-
-  &.ia-derand {
-    fill: var(--dejade-derand);
-  }
-
-  &.ia-detijd {
-    fill: var(--dejade-detijd);
-  }
-}
-
-.text-dejade {
-  color: $dejade;
-  color: var(--dejade);
-
-  &.ia-deklik {
-    color: var(--dejade-deklik);
-  }
-
-  &.ia-demuis {
-    color: var(--dejade-demuis);
-  }
-
-  &.ia-derand {
-    color: var(--dejade-derand);
-  }
-
-  &.ia-detijd {
-    color: var(--dejade-detijd);
-  }
 }
