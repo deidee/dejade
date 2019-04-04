@@ -16,11 +16,56 @@ De originele regel (_Python_)code, circa 2006:
 fill(random(0, .5), random(.5, 1), random(0, .75), .5)
 ```
 
+## Uitkomsten
+
+De meest „extreme” mogelijkheden zijn als volgt:
+
+`#007f00`
+`#00ff00`
+`#007fbf`
+`#00ffbf`
+`#7f7f00`
+`#7f7fbf`
+`#7f7f00`
+`#7fffbf`
+
+Alle kleuren die tussen deze mogelijkheden kunnen worden geïnterpoleerd zijn ook mogelijk.
+
 ## Installatie
 
 ```Shell
 npm i @deidee/dejade
 ```
+
+## Gebruik
+
+_deJade_ kan worden toegepast op een webpagina door een link naar het stijlblad in de `head` te plaatsen:
+
+```HTML
+<link rel="stylesheet" href="css/dejade.min.css">
+```
+
+Vervolgens kan de kleur via een ``class`` op verschillende manieren op elementen worden toegepast:
+
+| ``class`` | beschrijving |
+| --------- | --- |
+| `bg-dejade` | Past _deJade_ toe als achtergrondkleur van en vlak. |
+| `border-dejade` | Voegt een rand toe aan een vlak en geeft deze _deJade_ als kleur. |
+| `fill-dejade` | Past _deJade_ toe als vulkleur van een SVG-element. |
+| `text-dejade` | Past _deJade_ toe als tekstkleur. |
+
+## Interactie
+
+_deJade_ komt het best tot z’n recht als het interacties aangaat. Dergelijke interacties zijn buiten de scope van dit pakket, maar het pakket biedt wel aanknopingspunten.
+
+| `class` | `data`-attribuut | CSS-variabele | gebruik |
+| --- | --- | --- | --- |
+| `js-deklik` | `data-deklik` | `--dejade-deklik` | interactie met een (muis)klik |
+| `js-demuis` | `data-demuis` | `--dejade-demuis` | interactie met een muis (bijvoorbeeld de positie op het scherm) |
+| `js-derand` | `data-derand` | `--dejade-derand` | interactie met willekeur (bijvoorbeeld het herladen van een pagina) |
+| `js-detijd` | `data-detijd` | `--dejade-detijd` | interactie met tijd |
+
+Door een ``class`` of `data`-attribuut uit deze tabel toe te passen op een element wordt toegang verschaft tot de relevante CSS-variabele die vervolgens middels scripting kan worden beïnvloed.
 
 ## Uitbreidingen
 
@@ -28,6 +73,8 @@ De implementatie van _deJade_ in de identiteit van _deIdee_ gaat via _greenius_ 
 Zo is gedurende de borstkankermaand oktober bijvoorbeeld altijd één van de blokjes van het logo roze in plaats van groen.
 
 ## Publiceren
+
+Publiceren wordt gedaan door _deIdee_ en wel op de volgende manier:
 
 ```Shell
 npm publish --access public

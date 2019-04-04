@@ -1,22 +1,24 @@
 
-// TODO: Consider switching from interaction to data attributes for interaction.
-// .ia-deklik would become [data-deklik], for example.
-
+// Get pseudo-random values for red, green, and blue.
 $r: random(127);
 $g: 127 + random(128);
 $b: random(191);
 
+// Define deJade.
 $dejade: rgb($r, $g, $b);
 
-$types: (
+// Define properties.
+$properties: (
         bg: 'background-color',
         border: 'border-color',
         fill: 'fill',
         text: 'color'
 );
 
+// Define interactions.
 $interactions: ('deklik', 'demuis', 'derand', 'detijd');
 
+// Assign variables to root.
 :root {
   --dejade: #{$dejade};
 
@@ -25,14 +27,16 @@ $interactions: ('deklik', 'demuis', 'derand', 'detijd');
   }
 }
 
-@each $type in map_keys($types) {
-  .#{$type}-dejade {
-    $rule: map_get($types, $type);
+// Define rules.
+@each $property in map_keys($properties) {
+  .#{$property}-dejade {
+    $rule: map_get($properties, $property);
     #{$rule}: #{$dejade};
     #{$rule}: var(--dejade);
 
     @each $interaction in $interactions {
-      &.ia-#{$interaction} {
+      &.js-#{$interaction},
+      &data-#{$interaction} {
         #{$rule}: var(--dejade-#{$interaction});
       }
     }
