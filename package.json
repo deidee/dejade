@@ -1,7 +1,7 @@
 {
   "name": "@deidee/dejade",
-  "version": "1.1.0",
-  "description": "De huisstijlkleur van deidee.",
+  "version": "1.2.0",
+  "description": "De onconventionele huisstijlkleur van deidee.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +24,7 @@
     "url": "https://github.com/deidee/dejade/issues"
   },
   "homepage": "https://github.com/deidee/dejade#readme",
-  "dependencies": {
+  "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",

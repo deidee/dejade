@@ -1,13 +1,13 @@
 :root {
-  --dejade: #35d10d;
-  --dejade-deklik: #35d10d;
-  --dejade-demuis: #35d10d;
-  --dejade-derand: #35d10d;
-  --dejade-detijd: #35d10d;
+  --dejade: #23970e;
+  --dejade-deklik: #23970e;
+  --dejade-demuis: #23970e;
+  --dejade-derand: #23970e;
+  --dejade-detijd: #23970e;
 }
 
 .bg-dejade {
-  background-color: #35d10d;
+  background-color: #23970e;
   background-color: var(--dejade);
 }
 
@@ -28,7 +28,7 @@
 }
 
 .border-dejade {
-  border-color: #35d10d;
+  border-color: #23970e;
   border-color: var(--dejade);
 }
 
@@ -49,7 +49,7 @@
 }
 
 .fill-dejade {
-  fill: #35d10d;
+  fill: #23970e;
   fill: var(--dejade);
 }
 
@@ -69,8 +69,29 @@
   fill: var(--dejade-detijd);
 }
 
+.stroke-dejade {
+  stroke: #23970e;
+  stroke: var(--dejade);
+}
+
+.stroke-dejade.js-deklik, .stroke-dejadedata-deklik {
+  stroke: var(--dejade-deklik);
+}
+
+.stroke-dejade.js-demuis, .stroke-dejadedata-demuis {
+  stroke: var(--dejade-demuis);
+}
+
+.stroke-dejade.js-derand, .stroke-dejadedata-derand {
+  stroke: var(--dejade-derand);
+}
+
+.stroke-dejade.js-detijd, .stroke-dejadedata-detijd {
+  stroke: var(--dejade-detijd);
+}
+
 .text-dejade {
-  color: #35d10d;
+  color: #23970e;
   color: var(--dejade);
 }
 
@@ -93,4 +114,8 @@
 .border-dejade {
   border-style: solid;
   border-width: .0625rem;
+}
+
+.stroke-dejade {
+  stroke-width: .0625rem;
 }

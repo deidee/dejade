@@ -1,22 +1,5 @@
 
-// Get pseudo-random values for red, green, and blue.
-$r: random(127);
-$g: 127 + random(128);
-$b: random(191);
-
-// Define deJade.
-$dejade: rgb($r, $g, $b);
-
-// Define properties.
-$properties: (
-        bg: 'background-color',
-        border: 'border-color',
-        fill: 'fill',
-        text: 'color'
-);
-
-// Define interactions.
-$interactions: ('deklik', 'demuis', 'derand', 'detijd');
+@import "variables";
 
 // Assign variables to root.
 :root {
@@ -46,4 +29,8 @@ $interactions: ('deklik', 'demuis', 'derand', 'detijd');
 .border-dejade {
   border-style: solid;
   border-width: .0625rem;
+}
+
+.stroke-dejade {
+  stroke-width: .0625rem;
 }

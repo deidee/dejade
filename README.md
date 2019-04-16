@@ -52,6 +52,7 @@ Vervolgens kan de kleur via een ``class`` op verschillende manieren op elementen
 | `bg-dejade` | Past _deJade_ toe als achtergrondkleur van en vlak. |
 | `border-dejade` | Voegt een rand toe aan een vlak en geeft deze _deJade_ als kleur. |
 | `fill-dejade` | Past _deJade_ toe als vulkleur van een SVG-element. |
+| `stroke-dejade` | Past _deJade_ toe als omlijning van een SVG-element. |
 | `text-dejade` | Past _deJade_ toe als tekstkleur. |
 
 ## Interactie

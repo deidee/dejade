@@ -1,0 +1,20 @@
+
+// Get pseudo-random values for red, green, and blue.
+$dejade-red: random(127) !default;
+$dejade-green: 127 + random(128) !default;;
+$dejade-blue: random(191) !default;;
+
+// Define deJade.
+$dejade: rgb($dejade-red, $dejade-green, $dejade-blue) !default;;
+
+// Define properties.
+$properties: (
+        bg: 'background-color',
+        border: 'border-color',
+        fill: 'fill',
+        stroke: 'stroke',
+        text: 'color'
+) !default;
+
+// Define interactions.
+$interactions: ('deklik', 'demuis', 'derand', 'detijd') !default;
