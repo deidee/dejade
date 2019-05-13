@@ -1,11 +1,15 @@
 
-// Get pseudo-random values for red, green, and blue.
-$dejade-red: random(127) !default;
-$dejade-green: 127 + random(128) !default;;
-$dejade-blue: random(191) !default;;
+@function deJade($dejade-alpha: 1) {
+  // Get pseudo-random values for red, green, and blue.
+  $dejade-red: random(127) !default;
+  $dejade-green: 127 + random(128) !default;
+  $dejade-blue: random(191) !default;
+
+  @return rgba($dejade-red, $dejade-green, $dejade-blue, $dejade-alpha);
+}
 
 // Define deJade.
-$dejade: rgb($dejade-red, $dejade-green, $dejade-blue) !default;;
+$dejade: deJade() !default;
 
 // Define properties.
 $properties: (
@@ -17,4 +21,6 @@ $properties: (
 ) !default;
 
 // Define interactions.
-$interactions: ('deklik', 'demuis', 'derand', 'detijd') !default;
+$interactions: ('degyro', 'deklik', 'demuis', 'derand', 'detijd') !default;
+
+

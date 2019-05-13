@@ -1,14 +1,19 @@
 :root {
-  --dejade: #23970e;
-  --dejade-deklik: #23970e;
-  --dejade-demuis: #23970e;
-  --dejade-derand: #23970e;
-  --dejade-detijd: #23970e;
+  --dejade: #33e067;
+  --dejade-degyro: #33e067;
+  --dejade-deklik: #33e067;
+  --dejade-demuis: #33e067;
+  --dejade-derand: #33e067;
+  --dejade-detijd: #33e067;
 }
 
 .bg-dejade {
-  background-color: #23970e;
+  background-color: #33e067;
   background-color: var(--dejade);
+}
+
+.bg-dejade.js-degyro, .bg-dejadedata-degyro {
+  background-color: var(--dejade-degyro);
 }
 
 .bg-dejade.js-deklik, .bg-dejadedata-deklik {
@@ -28,8 +33,12 @@
 }
 
 .border-dejade {
-  border-color: #23970e;
+  border-color: #33e067;
   border-color: var(--dejade);
+}
+
+.border-dejade.js-degyro, .border-dejadedata-degyro {
+  border-color: var(--dejade-degyro);
 }
 
 .border-dejade.js-deklik, .border-dejadedata-deklik {
@@ -49,8 +58,12 @@
 }
 
 .fill-dejade {
-  fill: #23970e;
+  fill: #33e067;
   fill: var(--dejade);
+}
+
+.fill-dejade.js-degyro, .fill-dejadedata-degyro {
+  fill: var(--dejade-degyro);
 }
 
 .fill-dejade.js-deklik, .fill-dejadedata-deklik {
@@ -70,8 +83,12 @@
 }
 
 .stroke-dejade {
-  stroke: #23970e;
+  stroke: #33e067;
   stroke: var(--dejade);
+}
+
+.stroke-dejade.js-degyro, .stroke-dejadedata-degyro {
+  stroke: var(--dejade-degyro);
 }
 
 .stroke-dejade.js-deklik, .stroke-dejadedata-deklik {
@@ -91,8 +108,12 @@
 }
 
 .text-dejade {
-  color: #23970e;
+  color: #33e067;
   color: var(--dejade);
+}
+
+.text-dejade.js-degyro, .text-dejadedata-degyro {
+  color: var(--dejade-degyro);
 }
 
 .text-dejade.js-deklik, .text-dejadedata-deklik {
