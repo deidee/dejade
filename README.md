@@ -20,14 +20,14 @@ fill(random(0, .5), random(.5, 1), random(0, .75), .5)
 
 De meest „extreme” mogelijkheden zijn als volgt:
 
-`#007f00`
-`#00ff00`
-`#007fbf`
-`#00ffbf`
-`#7f7f00`
-`#7f7fbf`
-`#7f7f00`
-`#7fffbf`
+<code style="background:#007f00;color:#fff">#007f00</code>
+<code style="background:#00ff00;color:#fff">#00ff00</code>
+<code style="background:#007fbf;color:#fff">#007fbf</code>
+<code style="background:#00ffbf;color:#fff">#00ffbf</code>
+<code style="background:#7f7f00;color:#fff">#7f7f00</code>
+<code style="background:#7f7fbf;color:#fff">#7f7fbf</code>
+<code style="background:#7f7f00;color:#fff">#7f7f00</code>
+<code style="background:#7fffbf;color:#fff">#7fffbf</code>
 
 Alle kleuren die tussen deze mogelijkheden kunnen worden geïnterpoleerd zijn ook mogelijk.
 
@@ -61,6 +61,7 @@ _deJade_ komt het best tot z’n recht als het interacties aangaat. Dergelijke i
 
 | `class` | `data`-attribuut | CSS-variabele | gebruik |
 | --- | --- | --- | --- |
+| `js-degyro` | `data-degyro` | `--dejade-degyro` | interactie met een gyroscoop |
 | `js-deklik` | `data-deklik` | `--dejade-deklik` | interactie met een (muis)klik |
 | `js-demuis` | `data-demuis` | `--dejade-demuis` | interactie met een muis (bijvoorbeeld de positie op het scherm) |
 | `js-derand` | `data-derand` | `--dejade-derand` | interactie met willekeur (bijvoorbeeld het herladen van een pagina) |
