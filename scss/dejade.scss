@@ -19,7 +19,7 @@
 
     @each $interaction in $interactions {
       &.js-#{$interaction},
-      &data-#{$interaction} {
+      &[data-#{$interaction}] {
         #{$rule}: var(--dejade-#{$interaction});
       }
     }

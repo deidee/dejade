@@ -1,134 +1,134 @@
 :root {
-  --dejade: #33e067;
-  --dejade-degyro: #33e067;
-  --dejade-deklik: #33e067;
-  --dejade-demuis: #33e067;
-  --dejade-derand: #33e067;
-  --dejade-detijd: #33e067;
+  --dejade: #57ff69;
+  --dejade-degyro: #57ff69;
+  --dejade-deklik: #57ff69;
+  --dejade-demuis: #57ff69;
+  --dejade-derand: #57ff69;
+  --dejade-detijd: #57ff69;
 }
 
 .bg-dejade {
-  background-color: #33e067;
+  background-color: #57ff69;
   background-color: var(--dejade);
 }
 
-.bg-dejade.js-degyro, .bg-dejadedata-degyro {
+.bg-dejade.js-degyro, .bg-dejade[data-degyro] {
   background-color: var(--dejade-degyro);
 }
 
-.bg-dejade.js-deklik, .bg-dejadedata-deklik {
+.bg-dejade.js-deklik, .bg-dejade[data-deklik] {
   background-color: var(--dejade-deklik);
 }
 
-.bg-dejade.js-demuis, .bg-dejadedata-demuis {
+.bg-dejade.js-demuis, .bg-dejade[data-demuis] {
   background-color: var(--dejade-demuis);
 }
 
-.bg-dejade.js-derand, .bg-dejadedata-derand {
+.bg-dejade.js-derand, .bg-dejade[data-derand] {
   background-color: var(--dejade-derand);
 }
 
-.bg-dejade.js-detijd, .bg-dejadedata-detijd {
+.bg-dejade.js-detijd, .bg-dejade[data-detijd] {
   background-color: var(--dejade-detijd);
 }
 
 .border-dejade {
-  border-color: #33e067;
+  border-color: #57ff69;
   border-color: var(--dejade);
 }
 
-.border-dejade.js-degyro, .border-dejadedata-degyro {
+.border-dejade.js-degyro, .border-dejade[data-degyro] {
   border-color: var(--dejade-degyro);
 }
 
-.border-dejade.js-deklik, .border-dejadedata-deklik {
+.border-dejade.js-deklik, .border-dejade[data-deklik] {
   border-color: var(--dejade-deklik);
 }
 
-.border-dejade.js-demuis, .border-dejadedata-demuis {
+.border-dejade.js-demuis, .border-dejade[data-demuis] {
   border-color: var(--dejade-demuis);
 }
 
-.border-dejade.js-derand, .border-dejadedata-derand {
+.border-dejade.js-derand, .border-dejade[data-derand] {
   border-color: var(--dejade-derand);
 }
 
-.border-dejade.js-detijd, .border-dejadedata-detijd {
+.border-dejade.js-detijd, .border-dejade[data-detijd] {
   border-color: var(--dejade-detijd);
 }
 
 .fill-dejade {
-  fill: #33e067;
+  fill: #57ff69;
   fill: var(--dejade);
 }
 
-.fill-dejade.js-degyro, .fill-dejadedata-degyro {
+.fill-dejade.js-degyro, .fill-dejade[data-degyro] {
   fill: var(--dejade-degyro);
 }
 
-.fill-dejade.js-deklik, .fill-dejadedata-deklik {
+.fill-dejade.js-deklik, .fill-dejade[data-deklik] {
   fill: var(--dejade-deklik);
 }
 
-.fill-dejade.js-demuis, .fill-dejadedata-demuis {
+.fill-dejade.js-demuis, .fill-dejade[data-demuis] {
   fill: var(--dejade-demuis);
 }
 
-.fill-dejade.js-derand, .fill-dejadedata-derand {
+.fill-dejade.js-derand, .fill-dejade[data-derand] {
   fill: var(--dejade-derand);
 }
 
-.fill-dejade.js-detijd, .fill-dejadedata-detijd {
+.fill-dejade.js-detijd, .fill-dejade[data-detijd] {
   fill: var(--dejade-detijd);
 }
 
 .stroke-dejade {
-  stroke: #33e067;
+  stroke: #57ff69;
   stroke: var(--dejade);
 }
 
-.stroke-dejade.js-degyro, .stroke-dejadedata-degyro {
+.stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
   stroke: var(--dejade-degyro);
 }
 
-.stroke-dejade.js-deklik, .stroke-dejadedata-deklik {
+.stroke-dejade.js-deklik, .stroke-dejade[data-deklik] {
   stroke: var(--dejade-deklik);
 }
 
-.stroke-dejade.js-demuis, .stroke-dejadedata-demuis {
+.stroke-dejade.js-demuis, .stroke-dejade[data-demuis] {
   stroke: var(--dejade-demuis);
 }
 
-.stroke-dejade.js-derand, .stroke-dejadedata-derand {
+.stroke-dejade.js-derand, .stroke-dejade[data-derand] {
   stroke: var(--dejade-derand);
 }
 
-.stroke-dejade.js-detijd, .stroke-dejadedata-detijd {
+.stroke-dejade.js-detijd, .stroke-dejade[data-detijd] {
   stroke: var(--dejade-detijd);
 }
 
 .text-dejade {
-  color: #33e067;
+  color: #57ff69;
   color: var(--dejade);
 }
 
-.text-dejade.js-degyro, .text-dejadedata-degyro {
+.text-dejade.js-degyro, .text-dejade[data-degyro] {
   color: var(--dejade-degyro);
 }
 
-.text-dejade.js-deklik, .text-dejadedata-deklik {
+.text-dejade.js-deklik, .text-dejade[data-deklik] {
   color: var(--dejade-deklik);
 }
 
-.text-dejade.js-demuis, .text-dejadedata-demuis {
+.text-dejade.js-demuis, .text-dejade[data-demuis] {
   color: var(--dejade-demuis);
 }
 
-.text-dejade.js-derand, .text-dejadedata-derand {
+.text-dejade.js-derand, .text-dejade[data-derand] {
   color: var(--dejade-derand);
 }
 
-.text-dejade.js-detijd, .text-dejadedata-detijd {
+.text-dejade.js-detijd, .text-dejade[data-detijd] {
   color: var(--dejade-detijd);
 }
 
