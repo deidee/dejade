@@ -1,14 +1,14 @@
 :root {
-  --dejade: #57ff69;
-  --dejade-degyro: #57ff69;
-  --dejade-deklik: #57ff69;
-  --dejade-demuis: #57ff69;
-  --dejade-derand: #57ff69;
-  --dejade-detijd: #57ff69;
+  --dejade: #5ccfb8;
+  --dejade-degyro: #5ccfb8;
+  --dejade-deklik: #5ccfb8;
+  --dejade-demuis: #5ccfb8;
+  --dejade-derand: #5ccfb8;
+  --dejade-detijd: #5ccfb8;
 }
 
 .bg-dejade {
-  background-color: #57ff69;
+  background-color: #5ccfb8;
   background-color: var(--dejade);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: #57ff69;
+  border-color: #5ccfb8;
   border-color: var(--dejade);
 }
 
@@ -58,7 +58,7 @@
 }
 
 .fill-dejade {
-  fill: #57ff69;
+  fill: #5ccfb8;
   fill: var(--dejade);
 }
 
@@ -83,7 +83,7 @@
 }
 
 .stroke-dejade {
-  stroke: #57ff69;
+  stroke: #5ccfb8;
   stroke: var(--dejade);
 }
 
@@ -108,7 +108,7 @@
 }
 
 .text-dejade {
-  color: #57ff69;
+  color: #5ccfb8;
   color: var(--dejade);
 }
 
