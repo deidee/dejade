@@ -64,6 +64,7 @@ _deJade_ komt het best tot z’n recht als het interacties aangaat. Dergelijke i
 | `js-degyro` | `data-degyro` | `--dejade-degyro` | interactie met een gyroscoop |
 | `js-deklik` | `data-deklik` | `--dejade-deklik` | interactie met een (muis)klik |
 | `js-demuis` | `data-demuis` | `--dejade-demuis` | interactie met een muis (bijvoorbeeld de positie op het scherm) |
+| `js-deplek` | `data-deplek` | `--dejade-deplek` | interactie met de geografische locatie van het apparaat |
 | `js-derand` | `data-derand` | `--dejade-derand` | interactie met willekeur (bijvoorbeeld het herladen van een pagina) |
 | `js-detijd` | `data-detijd` | `--dejade-detijd` | interactie met tijd |
 
