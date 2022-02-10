@@ -1,11 +1,10 @@
 
 'use strict';
 
-var gulp = require('gulp');
-var pipeline = require('readable-stream').pipeline;
-var rename = require('gulp-rename');
-var sass = require('gulp-sass')(require('node-sass'));
-var sourcemaps = require('gulp-sourcemaps');
+const gulp = require('gulp');
+const rename = require('gulp-rename');
+const sass = require('gulp-sass')(require('sass'));
+const sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('sass', function () {
     // TODO: Bring back sourcemap without breaking the pipeline.
