@@ -4,7 +4,7 @@
 // Assign variables to root.
 :root {
   --dejade: #{$dejade};
-  --dejade-selectie: #{$dejade-t};
+  --dejade-deselectie: #{$dejade-t};
 
   @each $interaction in $interactions {
     --dejade-#{$interaction}: #{$dejade};
