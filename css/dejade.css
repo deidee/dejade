@@ -1,15 +1,16 @@
 :root {
-  --dejade: #04fe25;
-  --dejade-degyro: #04fe25;
-  --dejade-deklik: #04fe25;
-  --dejade-demuis: #04fe25;
-  --dejade-deplek: #04fe25;
-  --dejade-derand: #04fe25;
-  --dejade-detijd: #04fe25;
+  --dejade: #49e456;
+  --dejade-selectie: rgba(9, 182, 82, 0.5);
+  --dejade-degyro: #49e456;
+  --dejade-deklik: #49e456;
+  --dejade-demuis: #49e456;
+  --dejade-deplek: #49e456;
+  --dejade-derand: #49e456;
+  --dejade-detijd: #49e456;
 }
 
 .bg-dejade {
-  background-color: #04fe25;
+  background-color: #49e456;
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -32,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: #04fe25;
+  border-color: #49e456;
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -55,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: #04fe25;
+  fill: #49e456;
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -78,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: #04fe25;
+  stroke: #49e456;
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -101,7 +102,7 @@
 }
 
 .text-dejade {
-  color: #04fe25;
+  color: #49e456;
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
