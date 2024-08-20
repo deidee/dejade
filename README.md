@@ -59,14 +59,15 @@ Vervolgens kan de kleur via een ``class`` op verschillende manieren op elementen
 
 _deJade_ komt het best tot z’n recht als het interacties aangaat. Dergelijke interacties zijn buiten de scope van dit pakket, maar het pakket biedt wel aanknopingspunten.
 
-| `class` | `data`-attribuut | CSS-variabele | gebruik |
-| --- | --- | --- | --- |
-| `js-degyro` | `data-degyro` | `--dejade-degyro` | interactie met een gyroscoop |
-| `js-deklik` | `data-deklik` | `--dejade-deklik` | interactie met een (muis)klik |
-| `js-demuis` | `data-demuis` | `--dejade-demuis` | interactie met een muis (bijvoorbeeld de positie op het scherm) |
-| `js-deplek` | `data-deplek` | `--dejade-deplek` | interactie met de geografische locatie van het apparaat |
-| `js-derand` | `data-derand` | `--dejade-derand` | interactie met willekeur (bijvoorbeeld het herladen van een pagina) |
-| `js-detijd` | `data-detijd` | `--dejade-detijd` | interactie met tijd |
+| `class`     | `data`-attribuut | CSS-variabele     | gebruik                                                             |
+|-------------|------------------|-------------------|---------------------------------------------------------------------|
+| `js-degyro` | `data-degyro`    | `--dejade-degyro` | interactie met een gyroscoop                                        |
+| `js-deklik` | `data-deklik`    | `--dejade-deklik` | interactie met een (muis)klik                                       |
+| `js-demuis` | `data-demuis`    | `--dejade-demuis` | interactie met een muis (bijvoorbeeld de positie op het scherm)     |
+| `js-deplek` | `data-deplek`    | `--dejade-deplek` | interactie met de geografische locatie van het apparaat             |
+| `js-depuls` | `data-depuls`    | `--dejade-depuls` | automatisch pulserende verandering                                  |
+| `js-derand` | `data-derand`    | `--dejade-derand` | interactie met willekeur (bijvoorbeeld het herladen van een pagina) |
+| `js-detijd` | `data-detijd`    | `--dejade-detijd` | interactie met tijd                                                 |
 
 Door een ``class`` of `data`-attribuut uit deze tabel toe te passen op een element wordt toegang verschaft tot de relevante CSS-variabele die vervolgens middels scripting kan worden beïnvloed.
 

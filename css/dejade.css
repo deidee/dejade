@@ -1,16 +1,17 @@
 :root {
-  --dejade: #3d9bba;
-  --dejade-deselectie: rgba(67, 232, 69, 0.5);
-  --dejade-degyro: #3d9bba;
-  --dejade-deklik: #3d9bba;
-  --dejade-demuis: #3d9bba;
-  --dejade-deplek: #3d9bba;
-  --dejade-derand: #3d9bba;
-  --dejade-detijd: #3d9bba;
+  --dejade: rgb(26, 216, 22);
+  --dejade-deselectie: rgba(33, 157, 189, 0.5);
+  --dejade-degyro: rgb(26, 216, 22);
+  --dejade-deklik: rgb(26, 216, 22);
+  --dejade-demuis: rgb(26, 216, 22);
+  --dejade-deplek: rgb(26, 216, 22);
+  --dejade-depuls: rgb(26, 216, 22);
+  --dejade-derand: rgb(26, 216, 22);
+  --dejade-detijd: rgb(26, 216, 22);
 }
 
 .bg-dejade {
-  background-color: #3d9bba;
+  background-color: rgb(26, 216, 22);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -25,6 +26,9 @@
 .bg-dejade.js-deplek, .bg-dejade[data-deplek] {
   background-color: var(--dejade-deplek);
 }
+.bg-dejade.js-depuls, .bg-dejade[data-depuls] {
+  background-color: var(--dejade-depuls);
+}
 .bg-dejade.js-derand, .bg-dejade[data-derand] {
   background-color: var(--dejade-derand);
 }
@@ -33,7 +37,7 @@
 }
 
 .border-dejade {
-  border-color: #3d9bba;
+  border-color: rgb(26, 216, 22);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -48,6 +52,9 @@
 .border-dejade.js-deplek, .border-dejade[data-deplek] {
   border-color: var(--dejade-deplek);
 }
+.border-dejade.js-depuls, .border-dejade[data-depuls] {
+  border-color: var(--dejade-depuls);
+}
 .border-dejade.js-derand, .border-dejade[data-derand] {
   border-color: var(--dejade-derand);
 }
@@ -56,7 +63,7 @@
 }
 
 .fill-dejade {
-  fill: #3d9bba;
+  fill: rgb(26, 216, 22);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -71,6 +78,9 @@
 .fill-dejade.js-deplek, .fill-dejade[data-deplek] {
   fill: var(--dejade-deplek);
 }
+.fill-dejade.js-depuls, .fill-dejade[data-depuls] {
+  fill: var(--dejade-depuls);
+}
 .fill-dejade.js-derand, .fill-dejade[data-derand] {
   fill: var(--dejade-derand);
 }
@@ -79,7 +89,7 @@
 }
 
 .stroke-dejade {
-  stroke: #3d9bba;
+  stroke: rgb(26, 216, 22);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -94,6 +104,9 @@
 .stroke-dejade.js-deplek, .stroke-dejade[data-deplek] {
   stroke: var(--dejade-deplek);
 }
+.stroke-dejade.js-depuls, .stroke-dejade[data-depuls] {
+  stroke: var(--dejade-depuls);
+}
 .stroke-dejade.js-derand, .stroke-dejade[data-derand] {
   stroke: var(--dejade-derand);
 }
@@ -102,7 +115,7 @@
 }
 
 .text-dejade {
-  color: #3d9bba;
+  color: rgb(26, 216, 22);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -116,6 +129,9 @@
 }
 .text-dejade.js-deplek, .text-dejade[data-deplek] {
   color: var(--dejade-deplek);
+}
+.text-dejade.js-depuls, .text-dejade[data-depuls] {
+  color: var(--dejade-depuls);
 }
 .text-dejade.js-derand, .text-dejade[data-derand] {
   color: var(--dejade-derand);
