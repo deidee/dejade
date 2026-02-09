@@ -42,7 +42,13 @@ npm i @deidee/dejade
 _deJade_ kan worden toegepast op een webpagina door een link naar het stijlblad in de `head` te plaatsen:
 
 ```HTML
-<link rel="stylesheet" href="css/dejade.min.css">
+<link rel="stylesheet" href="css/dejade.css">
+```
+
+### CDN
+
+```HTML
+<link rel="stylesheet" href="https://hetcdn.nl/deidee/css/dejade.min.css">
 ```
 
 Vervolgens kan de kleur via een ``class`` op verschillende manieren op elementen worden toegepast:
