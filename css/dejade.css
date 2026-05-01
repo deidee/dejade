@@ -1,17 +1,17 @@
 :root {
-  --dejade: rgb(116, 181, 136);
-  --dejade-deselectie: rgba(57, 165, 153, 0.5);
-  --dejade-degyro: rgb(116, 181, 136);
-  --dejade-deklik: rgb(116, 181, 136);
-  --dejade-demuis: rgb(116, 181, 136);
-  --dejade-deplek: rgb(116, 181, 136);
-  --dejade-depuls: rgb(116, 181, 136);
-  --dejade-derand: rgb(116, 181, 136);
-  --dejade-detijd: rgb(116, 181, 136);
+  --dejade: rgb(53, 146, 160);
+  --dejade-deselectie: rgba(98, 250, 48, 0.5);
+  --dejade-degyro: rgb(53, 146, 160);
+  --dejade-deklik: rgb(53, 146, 160);
+  --dejade-demuis: rgb(53, 146, 160);
+  --dejade-deplek: rgb(53, 146, 160);
+  --dejade-depuls: rgb(53, 146, 160);
+  --dejade-derand: rgb(53, 146, 160);
+  --dejade-detijd: rgb(53, 146, 160);
 }
 
 .bg-dejade {
-  background-color: rgb(116, 181, 136);
+  background-color: rgb(53, 146, 160);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -37,7 +37,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(116, 181, 136);
+  border-color: rgb(53, 146, 160);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -63,7 +63,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(116, 181, 136);
+  fill: rgb(53, 146, 160);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -89,7 +89,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(116, 181, 136);
+  stroke: rgb(53, 146, 160);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -115,7 +115,7 @@
 }
 
 .text-dejade {
-  color: rgb(116, 181, 136);
+  color: rgb(53, 146, 160);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {

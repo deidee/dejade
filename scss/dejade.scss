@@ -1,5 +1,6 @@
 
-@import "variables";
+@use "sass:map";
+@use "variables" as *;
 
 // Assign variables to root.
 :root {
@@ -12,9 +13,9 @@
 }
 
 // Define rules.
-@each $property in map_keys($properties) {
+@each $property in map.keys($properties) {
   .#{$property}-dejade {
-    $rule: map_get($properties, $property);
+    $rule: map.get($properties, $property);
     #{$rule}: #{$dejade};
     #{$rule}: var(--dejade);
 
